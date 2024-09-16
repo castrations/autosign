@@ -2,5 +2,5 @@ Prompts for User Input: Asks for the password, folder location, and certificate 
 Creates OpenSSL Configuration: Generates openssl.cnf with user-provided details.
 Generates Certificates: Creates .key, .crt, and .pfx files using OpenSSL.
 Converts Certificate: Converts .crt to .der format.
-Signs EFI Bootloader: Signs loader.efi using the generated .pfx file.
+Signs EFI Bootloader: Signs the file using the generated .pfx file.
 Generates GUID: Outputs a new GUID.
